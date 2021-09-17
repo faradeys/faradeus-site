@@ -1,1 +1,1 @@
-This is blog by Vladimir Elmeev/Faradeus
+This is [blog](https://elmeev.com/) by Vladimir Elmeev/Faradeus
