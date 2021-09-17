@@ -12,10 +12,11 @@ export default function Header() {
       </div>
       <div className="border-b border-gray-300">
         <nav className="max-w-screen-md flex justify-start auto-cols-max py-6 container mx-auto">
-          <div className="mr-10"><Link href="/"><a className=" text-gray-500 hover:text-gray-700 font-light">Философия</a></Link></div>
+          <div className="mr-10"><Link href="/"><a className=" text-gray-500 hover:text-gray-700 font-light">Мысли</a></Link></div>
+          <div className="mr-10"><Link href="/"><a className=" text-gray-500 hover:text-gray-700 font-light">Путешествия</a></Link></div>
           <div className="mr-10"><Link href="/"><a className=" text-gray-500 hover:text-gray-700 font-light">Цитаты</a></Link></div>
           <div className="mr-10"><Link href="/"><a className=" text-gray-500 hover:text-gray-700 font-light">Программирование</a></Link></div>
-          <div className="flex-1 text-right"><Link href="/"><a className="font-light">Контакты</a></Link></div>
+          <div className="flex-1 text-right"><Link href="/contacts"><a className="text-gray-500 hover:text-gray-700 font-light">Контакты</a></Link></div>
         </nav>
       </div>
     </header>

@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 
-export default function Custom404() {
+export default function Contacts() {
   return (
     <Layout>
       <Head>
-        <title>404</title>
+        <title>contacts</title>
       </Head>
-      <h1>Hello, Huillo! <br/> тут 404 👀</h1>
+      <h1>21323</h1>
     </Layout>
   )
 }

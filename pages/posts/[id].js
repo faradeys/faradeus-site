@@ -1,6 +1,6 @@
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
-import Date from '../../components/date'
+import Date from '../../components/blocks/date'
 import utilStyles from '../../styles/utils.module.sass'
 
 export async function getStaticProps({ params }) {

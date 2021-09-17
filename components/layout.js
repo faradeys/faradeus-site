@@ -4,6 +4,7 @@ import Image from 'next/image'
 import utilStyles from '../styles/utils.module.sass'
 import Link from 'next/link'
 import Header from './blocks/header'
+import Footer from './blocks/footer'
 
 const name = 'elmv'
 export const siteTitle = 'elmv blog'
@@ -62,7 +63,8 @@ export default function Layout({ children, home }) {
         )}
       </header> */}
       <Header></Header>
-      <main>{children}</main>
+      <main className="min-h-screen80">{children}</main>
+      <Footer></Footer>
       {/* {!home && (
         <div className="">
           <Link href="/">
